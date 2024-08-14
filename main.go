@@ -1,13 +1,12 @@
 package main
 
 import (
-	"dynamodb/repository"
+	repository "dynamodb/users"
 )
 
 func main() {
 
 	db := repository.New()
-
 	db.GetList()
 
 }
